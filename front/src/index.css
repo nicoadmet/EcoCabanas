@@ -1,3 +1,10 @@
+/* ===== RESET ===== */
+:root {
+  max-width: 100%;
+}
+
+
+
 /* ===== NAVBAR ===== */
 .transition-navbar {
   transition: all 0.3s ease-in-out;
@@ -166,10 +173,6 @@
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   /* Dashboard Home */
-  .home-img {
-    width: 80%;
-  }
-
   .content-box {
     max-width: 100%;
     text-align: center;
@@ -197,5 +200,8 @@
   }
 }
 
-
-
+@media (max-width: 991px) {
+    .home-img {
+    width: 400px;
+  }
+}
