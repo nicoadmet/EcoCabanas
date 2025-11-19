@@ -128,7 +128,7 @@ export const Dashboard = () => {
 
       <section
         id="conocenos"
-        style={{ padding: "4rem 0", backgroundColor: "#ecececff", minHeight: "100vh" }}
+        style={{ padding: "4rem 0", backgroundColor: "#ffffffff", minHeight: "100vh" }}
       >
         <Container>
           <div className="d-flex align-items-center justify-content-center mb-5">
